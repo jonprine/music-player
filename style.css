@@ -20,10 +20,22 @@ body {
 .player-container {
   height: 500px;
   width: 400px;
+  background: #e7e7e8;
+  border-radius: 20px;
+  box-shadow: 0 15px 30px 5px rgba(0, 0, 0, 0.3);
+}
+
+.img-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.5);
 }
 
 .img-container {
-
+  height: 300px;
+  width: 300px;
   position: relative;
   top: -50px;
   left: 50px;
@@ -81,9 +93,13 @@ h3 {
   font-size: 30px;
   color: rgb(129, 129, 129);
   margin-right: 30px;
-
+  cursor: pointer;
+  user-select: none;
 }
 
+.fas:hover {
+  filter: brightness(80%);
+}
 
 
 .main-button {
@@ -94,7 +110,9 @@ h3 {
 
 /* Media Query: iPhone (Vertical) */
 @media screen and (max-width: 376px) {
-
+  .player-container {
+    width: 95vw;
+  }
 
   .img-container {
     left: 29px;
