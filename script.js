@@ -13,24 +13,24 @@ const nextBtn = document.getElementById("next");
 // music
 const songs = [
   {
-    name: "jacinto-1",
-    displayName: "Electric Chill Machine",
-    artist: "Jacinto Design",
+    name: "cartezz-1",
+    displayName: "Let's Ride",
+    artist: "Cartezz",
   },
   {
-    name: "jacinto-2",
-    displayName: "Seven Nation Army (Remix)",
-    artist: "Jacinto Design",
+    name: "cartezz-2",
+    displayName: "Sienna Life",
+    artist: "Cartezz",
   },
   {
-    name: "jacinto-3",
-    displayName: "Goodnight, Disco Queen",
-    artist: "Jacinto Design",
+    name: "cartezz-3",
+    displayName: "Waiting on a Call",
+    artist: "Cartezz",
   },
   {
-    name: "metric-1",
-    displayName: "Front Row (Remix)",
-    artist: "Metric/Jacinto Design",
+    name: "cartezz-4",
+    displayName: "Easy Company",
+    artist: "Cartezz",
   },
 ];
 
