@@ -9,7 +9,7 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  background: #c9ced3;
+  background: #ebc97e;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,7 +20,7 @@ body {
 .player-container {
   height: 500px;
   width: 400px;
-  background: #e7e7e8;
+  background: #5acd84;
   border-radius: 20px;
   box-shadow: 0 15px 30px 5px rgba(0, 0, 0, 0.3);
 }
@@ -91,14 +91,14 @@ h3 {
 
 .fas {
   font-size: 30px;
-  color: rgb(129, 129, 129);
+  color: rgb(109, 110, 114);
   margin-right: 30px;
   cursor: pointer;
   user-select: none;
 }
 
 .fas:hover {
-  filter: brightness(80%);
+  filter: brightness(90%);
 }
 
 
